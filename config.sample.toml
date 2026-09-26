@@ -1,0 +1,16 @@
+# ~/.config/himalaya/config.toml (chmod 600). Verified against himalaya v2.1.0.
+# Check with: himalaya -a work account check   (expect imap: OK and smtp: OK)
+
+[accounts.work]
+default = true                         # the account used when -a is omitted
+email = "support@example.com"          # the From address; mail.py refuses an account without it
+display-name = "Example Support"       # without it, recipients see the bare address
+mailbox.alias.inbox = "INBOX"
+mailbox.alias.sent = "Sent"            # native names: himalaya -a work imap list
+mailbox.alias.drafts = "Drafts"
+imap.server = "imaps://imap.example.com:993"
+imap.sasl.plain.username = "support@example.com"
+imap.sasl.plain.password.command = ["sh", "-c", "printf %s \"$(cat \"$HOME/.config/mail/work.pass\")\""]
+smtp.server = "smtps://smtp.example.com:465"
+smtp.sasl.plain.username = "support@example.com"
+smtp.sasl.plain.password.command = ["sh", "-c", "printf %s \"$(cat \"$HOME/.config/mail/work.pass\")\""]

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="claude-code-email-skill: Claude Code reads your IMAP inbox, saves replies to Drafts, and sends only on your word">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#131a24"/>
+      <stop offset="100%" stop-color="#1b2430"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97757"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="4" fill="url(#accent)"/>
+
+  <g stroke="#8b949e" stroke-width="1" opacity="0.06">
+    <path d="M0 100h1280M0 200h1280M0 300h1280"/>
+    <path d="M320 0v400M640 0v400M960 0v400"/>
+  </g>
+
+  <text x="80" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="54" font-weight="700" fill="#e6edf3">claude-code-email-skill</text>
+
+  <text x="80" y="182" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="25" fill="#adbac7">Your coding agent reads the IMAP inbox and drafts the reply.</text>
+  <text x="80" y="218" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="25" fill="#768390">Replies wait in your real Drafts folder. Nothing sends until you say so.</text>
+
+  <!-- the flow, the actual shape of the thing -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+    <rect x="80" y="268" width="228" height="72" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="100" y="296" fill="#58a6ff">new · thread</text>
+    <text x="100" y="322" fill="#768390" font-size="15">reads cheap, quotes cut</text>
+
+    <rect x="332" y="268" width="228" height="72" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="352" y="296" fill="#d29922">draft</text>
+    <text x="352" y="322" fill="#768390" font-size="15">to Drafts, in-thread</text>
+
+    <rect x="584" y="268" width="228" height="72" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="604" y="296" fill="#3fb950">send</text>
+    <text x="604" y="322" fill="#768390" font-size="15">only on your word</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#484f58">
+    <text x="856" y="296">MIT</text>
+    <text x="912" y="296">himalaya v2</text>
+    <text x="1032" y="296">IMAP</text>
+    <text x="1088" y="296">SMTP</text>
+    <text x="856" y="322">Claude Code</text>
+    <text x="976" y="322">Codex</text>
+    <text x="1040" y="322">Cursor</text>
+  </g>
+</svg>

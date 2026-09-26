@@ -1,0 +1,10 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "Read and answer an IMAP mailbox from Claude Code: cheap thread reads, replies saved to Drafts in-thread, send only on your word. Over the himalaya CLI v2.",
+  "author": { "name": "Abhishek Chaudhary", "url": "https://abhishekchaudhary.com" },
+  "homepage": "https://abhishekchaudhary.com/blog/claude-code-imap-email-skill",
+  "repository": "https://github.com/ph33nx/claude-code-email-skill",
+  "license": "MIT",
+  "keywords": ["email", "imap", "smtp", "himalaya", "drafts", "human-in-the-loop", "support-inbox"]
+}

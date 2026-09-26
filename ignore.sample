@@ -1,0 +1,6 @@
+# ~/.config/mail/<account>.ignore : one From-address substring per line.
+# `mail.py new` hides these senders unless --all. List exact automated
+# addresses, never a whole domain: a vendor domain also carries people.
+noreply@payments.example.com
+dmarc-reports@example.net
+notifications@ci.example.org

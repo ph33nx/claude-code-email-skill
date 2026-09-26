@@ -1,0 +1,14 @@
+{
+  "name": "ph33nx",
+  "owner": { "name": "Abhishek Chaudhary", "url": "https://abhishekchaudhary.com" },
+  "metadata": {
+    "description": "Claude Code plugins by ph33nx. Email over IMAP and SMTP with drafts on human approval."
+  },
+  "plugins": [
+    {
+      "name": "email",
+      "source": "./",
+      "description": "Read and answer an IMAP mailbox from Claude Code: cheap thread reads, replies saved to Drafts in-thread, send only on your word. Over the himalaya CLI v2."
+    }
+  ]
+}
